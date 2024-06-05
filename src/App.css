@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 768px;
+  overflow: hidden;
+  flex-wrap: wrap;
+
+  background-color: #4E5132;
+  font-family: "Lato", sans-serif;
+}
+
+* h1, h2, h3, h4, h5 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+
+
+/******************* HEADER *******************/
+
+.sidehovede {
+  background-color: #4E5132;
+  margin: 2% 1%;
+}
+
+.sidehovede img {
+  width: 75%;
+}
+
+/*********** FOOTER ***********/
+.footer {
+  height: fit-content;
+}
+
+.soMe img {
+  height: 40px;
+  margin: 5% 5%;
+}
+
+.footerLogo {
+  width: 60%;
+  margin-bottom: 5%;
+}
+
+
+/***************** HARMONIKA ***************/
+
+.harmonikaSide {
+  text-align: left;
+  background-color: #FAEFE5;
+  padding: 2%;
+  max-width: 768px;
+
+}
+
+.map {
+ max-width: 350px;
+ 
+}
+
+.showImg {
+  width: 350px;
+}
+
+
+
+
+/********* TABEL *********/
+.text-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+  background-color: #f5f5dc; 
+}
+
+.text-table td {
+  padding: 10px;
+  border: none; 
+}
+
+.name-cell {
+  background-color: #363C2E; 
+  color: white; 
+  width: 80%; 
+}
+
+.currency-cell {
+  background-color: #CCEAAE; 
+  color: #000; 
+  text-align: right; 
+  width: 20%; 
+}
+
+
+/*************** FEJL SIDE *********/
+
+.text-image-with-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* margin: 2% 10%; */
+
+  color: #FAEFE5;
+}
+
+.text-image-with-button p {
+  width: 60%;
+}
+
+.fejlButton {
+  background-color: #94775E;
+  color: #FAEFE5;
+  border-radius: 0;
+  margin: 5% 0;
+  
+}
+
+.fejlImg {
+  height: 400px;
+  margin: 5% 0;
+}
+
+/************************* LOGIN PAGE ***************************/
+
+.loginput {
+  background-color: #FAEFE5;
+  color: #94775E;
+  border: none;
+  width: 60%;
+}
+
+.indputBox {
+  margin-top: 10%;
+}
+
+.login-button {
+  margin: 5% 2%;
+  background-color: #94775E;
+  color: #FAEFE5;
+  border-radius: 0%;
+}
+
+.logLogo {
+  height: 300px;
+  margin: 5% 0;
+}
